@@ -13,13 +13,13 @@ function Pagination({ totalPages, currentPage, onChangePage }) {
                 currentPage === 1
                   ? "cursor-not-allowed"
                   : "hover:bg-gray-100 hover:text-gray-700"
-              } bg-white border border-gray-300 text-gray-500 ml-0 rounded-l-lg leading-tight py-2 px-3 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`}
+              } bg-white border border-gray-300 text-gray-500 ml-0 rounded-l-lg leading-tight py-2 px-3 `}
             >
               Previous
             </button>
           </li>
           <li>
-            <div className="bg-white border border-gray-300 text-gray-500 leading-tight py-2 px-3 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+            <div className="bg-white border border-gray-300 text-gray-500 leading-tight py-2 px-3 ">
               {currentPage}
             </div>
           </li>
@@ -31,7 +31,7 @@ function Pagination({ totalPages, currentPage, onChangePage }) {
                 totalPages === currentPage
                   ? "cursor-not-allowed"
                   : "hover:bg-gray-100 hover:text-gray-700"
-              } bg-white border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-r-lg leading-tight py-2 px-3 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`}
+              } bg-white border border-gray-300 text-gray-500 rounded-r-lg leading-tight py-2 px-3 `}
             >
               Next
             </button>
